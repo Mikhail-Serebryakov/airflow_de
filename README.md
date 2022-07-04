@@ -10,6 +10,8 @@ docker pull puckel/docker-airflow
 #Запуск приложения:
 1. docker-compose -f docker-compose.yml up -d
 2. В браузерной строке перейдите по http://localhost:8080/
+    Login : airflow
+    Password : airflow
 3. Запустите DAG "get_data"
 4. Для просмотра данных через AirFlow запустить DAG "view_data"
 -> щелкните по выполненной задаче и передите в Log для просмотра

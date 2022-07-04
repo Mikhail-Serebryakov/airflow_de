@@ -6,7 +6,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 import datetime as dt
 
-conn = create_engine('postgresql+psycopg2://airflow:airflow@puckelairflow_postgres_1:5432/airflow')
+conn = create_engine('postgresql+psycopg2://airflow:airflow@airflow_de_postgres_1:5432/airflow')
 
 dag = DAG(
     dag_id="get_data",
